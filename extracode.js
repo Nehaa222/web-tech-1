@@ -11,7 +11,7 @@ function myFunction(){
     }
     
     const textchange = document.querySelector("#change");
-    const textvalue = ["a student","a girl","a risk-taker"];
+    const textvalue = ["a student","a girl","a Teacher"];
     let counter = 0;
     setInterval(()=>{
     textchange.textContent = textvalue[counter];
